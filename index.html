@@ -31,6 +31,11 @@
 					<p>
 						Yes you need this
 					</p>
+					<aside class="notes">
+            - Introduction <br />
+						 - Name <br />
+						 - Job <br />
+          </aside>
 				</section>
 
 				<!-- Describe the problem -->
@@ -46,10 +51,17 @@
 							<li>worldwide user base</li>
 						</ul>
 					</section>
+					<aside class="notes">
+            - Size of the environment <br />
+          </aside>
 					<section>
 						<p>
 							Users needed to know what the current thresholds were for their machines
 						</p>
+						<aside class="notes">
+	            - Took a lot of time <br />
+							- Had to tell them the same information several times <br />
+	          </aside>
 					</section>
 				</section>
 
@@ -109,6 +121,7 @@
 						<li> Github: <a href="https://github.com/mattyjones">mattyjones</a> </li>
 						<li> Linkedin: <a href="https://www.linkedin.com/in/mattyjones">Matty Jones</a> </li>
 						<li> Yieldbot is <a href="https://www.yieldbot.com/careers/">hiring</a> </li>
+						<li> Today's <a href="https://monitorama2015.herokuapp.com/#/">Slides</a>
 					</ul>
 			  </section>
 			</div>
@@ -118,10 +131,7 @@
 		<script src="js/reveal.js"></script>
 
 		<script>
-
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
+		Reveal.initialize({
 				controls: true,
 				progress: false,
 				history: true,
@@ -129,18 +139,12 @@
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-				// Optional reveal.js plugins
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
-
 		</script>
-
 	</body>
 </html>

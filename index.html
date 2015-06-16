@@ -43,7 +43,7 @@
 					<h2>Problem</h2>
 					<section>
 						<p>
-							Monitoring Environment
+							What are we are monitoring
 						</p>
 						<ul>
 							<li>10k machines</li>
@@ -67,7 +67,7 @@
 
 				<!-- What tools are currently being used -->
 				<section>
-					<h2>Monitoring Tools</h2>
+					<h2>Tool Belt</h2>
 					<section>
 					</section>
 					<section>
@@ -105,11 +105,14 @@
 				<section>
 					<h3>Solution</h3>
 					<p>
-						<span class="fragment roll in">all configuration files in Gitlab as .md file</span><br />
-						<span class="fragment roll in">commit msg contains the ticket id<br /></span><br />
-						<span class="fragment roll in">Icinga has a check polling its configuration repo</span><br />
-						<span class="fragment roll in">pull the latest changes and apply bash fu</span><br />
-						<span class="fragment roll in">update ticket with commit id and link to file</span><br />
+						<ol>
+							<li><span class="fragment roll in">Bob opens a ticket to change the monitoring on <font color="yellow">foo-01.prd.aws.com.md</font></span></li>
+							<li><span class="fragment roll in">monitoring updates the configuration file <font color="yellow">foo-01.md</font></span></li>
+							<li><span class="fragment roll in">the commit msg contains the ticket id</span></li>
+							<li><span class="fragment roll in">Icinga has a check polling its configuration repo</span></li>
+							<li><span class="fragment roll in">when a new commit is made pull the latest changes and apply bash fu</span></li>
+							<li><span class="fragment roll in">monitoring updates the ticket with the commit id and link to the config file</span></li>
+						</ol>
 					</p>
 			  </section>
 
@@ -122,7 +125,7 @@
 				</section>
 				<section>
 						<p>
-							https://gitlab.hal2k.com/aws/ldap/foo-01.prd.aws.com.md
+							<font color="blue">https://gitlab.hal2k.com/aws/ldap/foo-01.prd.aws.com.md</font>
 						</p>
 						<img src="images/one.png" style="width:50%;height:50%;">
 				</section>
@@ -135,7 +138,7 @@
 						Github: <a href="https://github.com/mattyjones">mattyjones</a><br />
 						Linkedin: <a href="https://www.linkedin.com/in/mattyjones">Matty Jones</a><br />
 						Yieldbot is <a href="https://www.yieldbot.com/careers/">hiring</a><br />
-						Slides: https://monitorama2015.herokuapp.com<br />
+						Slides: mattjones-pres-monitorama2015.herokuapp.com<br />
 					</p>
 			  </section>
 			</div>

@@ -1,20 +1,21 @@
 {
   "name": "reveal.js",
-  "version": "0.1",
-  "description": "How I automated documenting monitoring thesholds painlessly",
-  "homepage": "https://github.com/mattyjones/monitorma_pres",
+  "version": "2.5.0",
+  "description": "The HTML Presentation Framework",
+  "homepage": "http://lab.hakim.se/reveal-js",
+  "subdomain": "revealjs",
   "scripts": {
     "test": "grunt jshint",
     "start": ""
   },
   "author": {
-    "name": "Matty Jones",
-    "email": "mattjones@gmail.com",
-    "web": "https://github.com/mattyjones"
+    "name": "Hakim El Hattab",
+    "email": "hakim.elhattab@gmail.com",
+    "web": "http://hakim.se"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mattyjones/monitorma_pres.git"
+    "url": "git://github.com/hakimel/reveal.js.git"
   },
   "engines": {
     "node": "~0.8.0"
@@ -37,7 +38,8 @@
   },
   "licenses": [
     {
-      "type": "MIT"
+      "type": "MIT",
+      "url": "https://github.com/hakimel/reveal.js/blob/master/LICENSE"
     }
   ]
 }

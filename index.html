@@ -11,14 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+		<!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
 	</head>
 
 	<body>
@@ -32,9 +25,6 @@
 						Yes you need this
 					</p>
 					<aside class="notes">
-            - Introduction <br />
-						 - Name <br />
-						 - Job <br />
           </aside>
 				</section>
 
@@ -52,15 +42,12 @@
 						</ul>
 					</section>
 					<aside class="notes">
-            - Size of the environment <br />
-          </aside>
+					</aside>
 					<section>
 						<p>
 							Users needed to know what the current thresholds were for their machines
 						</p>
 						<aside class="notes">
-	            - Took a lot of time <br />
-							- Had to tell them the same information several times <br />
 	          </aside>
 					</section>
 				</section>
@@ -75,18 +62,24 @@
 						<span class="fragment roll in">fork of Nagios</span><br />
 						<span class="fragment roll in">text file based configurarion<br /></span><br />
 						<span class="fragment roll in">one file per server</span><br />
+						<aside class="notes">
+						</aside>
 					</section>
 					<section>
 						<h3>Gitlab (Single Source of Truth)</h3>
 						<span class="fragment roll in">Open Source eq. of Github</span><br />
 						<span class="fragment roll in">LDAP based permissions</span><br />
 						<span class="fragment roll in">renders all .md files<br /></span><br />
+						<aside class="notes">
+						</aside>
 					</section>
 					<section>
 						<h3>Markdown (Markup Language)</h3>
 						<span class="fragment roll in">easy to write</span><br />
 						<span class="fragment roll in">easy to render</span><br />
 						<span class="fragment roll in">can be treated as code<br /></span><br />
+						<aside class="notes">
+						</aside>
 					</section>
 				</section>
 
@@ -99,6 +92,8 @@
 						<span class="fragment roll in">easy to read<br /></span><br />
 						<span class="fragment roll in">audit trail<br /></span><br />
 					</p>
+					<aside class="notes">
+					</aside>
 				</section>
 
 				<!-- What is the solution to the problem -->
@@ -114,21 +109,34 @@
 							<li><span class="fragment roll in">monitoring updates the ticket with the commit id and link to the config file</span></li>
 						</ol>
 					</p>
+					<aside class="notes">
+					</aside>
 			  </section>
 
 				<!-- What does the solution look like -->
 				<section>
 					<h3>End Result</h3>
 					<section>
+						<aside class="notes">
+						</aside>
+					</section>
+					<section>
+							<img src="images/three.png" style="width:100%;height:100%;">
+							<aside class="notes">
+							</aside>
 					</section>
 					<section>
 							<img src="images/two.png" style="width:60%;height:60%;">
+							<aside class="notes">
+							</aside>
 					</section>
 					<section>
 							<p>
 								<font color="yellow">https://gitlab.hal2k.com/aws/ldap/foo-01.prd.aws.com.md</font>
 							</p>
 							<img src="images/one.png" style="width:50%;height:50%;">
+							<aside class="notes">
+							</aside>
 					</section>
 				</section>
 
@@ -138,15 +146,25 @@
 						Twitter: <a href="https://twitter.com/DevopsMatt">@devopsmatt</a><br />
 						Github: <a href="https://github.com/mattyjones">mattyjones</a><br />
 						Linkedin: <a href="https://www.linkedin.com/in/mattyjones">Matty Jones</a><br />
-						Yieldbot is <a href="https://www.yieldbot.com/careers/">hiring</a><br />
+						Yieldbot is hiring [<a href="https://www.yieldbot.com/careers/">X</a>]<br />
 						Slides: mattjones-pres-monitorama2015.herokuapp.com<br />
 					</p>
+					<aside class="notes">
+					</aside>
 			  </section>
 			</div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
 
 		<script>
 		Reveal.initialize({
